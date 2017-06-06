@@ -1,5 +1,12 @@
 package bitmanipulation;
 
+/**
+ * 
+ * @author rounak
+ * http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/
+ * 
+ */
+
 /*
  * Question: 
  * You are given two numbers A and B. 
@@ -58,6 +65,14 @@ public class CountNumberOfBitsToBeFlipped {
 		return count;
 	}
 
+	/*
+	 * Using Bitwise AND Operation
+	 * 
+	 * Time Complexity: Theta(log n)
+	 * 
+	 * Space Complexity: O(1)
+	 */
+
 	public static int bitCountAndOperation(int n) {
 
 		int count = 0;
@@ -68,6 +83,14 @@ public class CountNumberOfBitsToBeFlipped {
 		}
 		return count;
 	}
+
+	/*
+	 * Brian Kernighan Algorithm
+	 * 
+	 * Time Complexity: O(log n)
+	 * 
+	 * Space Complexity: O(1)
+	 */
 
 	public static int bitCountBrianKernighanAlgo(int n) {
 
