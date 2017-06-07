@@ -16,8 +16,10 @@ package bitmanipulation;
 /*
  * Solution:
  * 
- * 1. Calculate XOR of A and B. a_xor_b = A ^ B 2. Count the set bits in the
- * above calculated XOR result. countSetBits(a_xor_b)
+ * 1. Calculate XOR of A and B. a_xor_b = A ^ B
+ * 
+ * 2. Count the set bits in the above calculated XOR result.
+ * countSetBits(a_xor_b)
  * 
  */
 
