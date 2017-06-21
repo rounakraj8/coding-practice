@@ -20,7 +20,7 @@ public class FindTheElementThatAppearOnce {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 12, 1, 12, 3, 12, 1, 1, 2, 3, 3 };
+		int arr[] = { 12, 1, 132, 3, 12, 1, 1, 2, 3, 3 };
 		System.out.println(getSingle(arr));
 
 	}
